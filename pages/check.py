@@ -32,7 +32,7 @@ class HomePage(Container):
         self.temp_con1 = Container(visible = False, height=50)
         self.temp_div = Divider(visible = False,height=1, color=colors.BLACK26)
         self.temp_con2 = Container(height=50,visible= False)
-        self.c, self.d = load_video_model(model_path = r"D:\Final Year Project\DeepScan_Pro\trained_models\model_95_acc_40_frames_FF_data.pt")
+        self.c, self.d = load_video_model(model_path = "trained_models/model_95_acc_40_frames_FF_data.pt")
         self.proof_show_text_button = TextButton(
                                         content=Text(
                                             "Detection Insight📈👁️",
