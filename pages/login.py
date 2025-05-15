@@ -25,7 +25,7 @@ class Login(Container):
             controls=[
                 Container(
                     height =770,
-                    image_src= r'assets\bg_DS.png',
+                    image_src= 'assets/bg_DS.png',
                     image_fit=ImageFit.COVER,
                     expand=True,
                     alignment=alignment.center,
@@ -40,7 +40,7 @@ class Login(Container):
             horizontal_alignment="center",
             controls=[
                 Image(
-                    src=r"assets\DS.png",  
+                    src="assets/DS.png",  
                     width=400,
                     height=200,
                     fit=ImageFit.CONTAIN,
