@@ -56,7 +56,7 @@ class AudioDeepfakeDetector(nn.Module):
         return self.classifier(attn_output)
     
 model = AudioDeepfakeDetector().to(device)
-model.load_state_dict(torch.load(r"C:\Users\hp\Downloads\best_model.pth", map_location=torch.device('cpu')))
+model.load_state_dict(torch.load("trained_models/best_model.pth", map_location=torch.device('cpu')))
 model.eval()
 
 def audio_deepfake(file_path):
