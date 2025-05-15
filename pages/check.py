@@ -220,7 +220,7 @@ class HomePage(Container):
                 controls=[
                     Container(
                         content = Image(
-                            src= r"C:\Users\hp\Downloads\animation.gif",
+                            src= "assets/animation.gif",
                             width=100,
                             height=100,
                             fit=ImageFit.CONTAIN,
