@@ -10,21 +10,21 @@ class StartPage(Container):
         page.title = "DeepScan Pro"
         page.theme_mode = ThemeMode.LIGHT
         page.scroll = "always"
-        page.fonts = {"Bebas Neue" : r"D:\Final Year Project\DeepScan_Pro\assets\fonts\BebasNeue-Regular.ttf",
-                      "Neuton": r'D:\Final Year Project\DeepScan_Pro\assets\fonts\Neuton-Regular.ttf',
-                      "Poppins" : r'D:\Final Year Project\DeepScan_Pro\assets\fonts\Poppins-ExtraBold.ttf',
-                      "Cabin" : r"D:\Final Year Project\DeepScan_Pro\assets\fonts\Cabin-Regular.ttf"
+        page.fonts = {"Bebas Neue" : "assets/fonts/BebasNeue-Regular.ttf",
+                      "Neuton": 'assets/fonts/Neuton-Regular.ttf',
+                      "Poppins" : 'assets/fonts/Poppins-ExtraBold.ttf',
+                      "Cabin" : "assets/fonts/Cabin-Regular.ttf"
                       }
         self.expand = True
         self.page.scroll = 'always'
         self.contact_ref = Ref[Container]()
         self.bgcolor = '#f5f7fd'
         self.images = [
-            r"D:\Final Year Project\DeepScan_Pro\assets\images\images.jpeg",
-            r"D:\Final Year Project\DeepScan_Pro\assets\images\deepfakes-threat-kyc-aml.png",
-            r"D:\Final Year Project\DeepScan_Pro\assets\images\deepfakes-verification.png",
-            r"D:\Final Year Project\DeepScan_Pro\assets\images\download.jpeg",
-            r"D:\Final Year Project\DeepScan_Pro\assets\background.jpg"
+            "assets/images/images.jpeg",
+            "assets/images/deepfakes-threat-kyc-aml.png",
+            "assets/images/deepfakes-verification.png",
+            "assets/images/download.jpeg",
+            "assets/background.jpg"
         ]
         self.content = Column(
             expand=True,
@@ -277,7 +277,7 @@ class StartPage(Container):
                         padding=padding.only(right=40,top=0,bottom=50),
                         bgcolor=None,
                         content=Image(
-                            src=r'D:\Final Year Project\DeepScan_Pro\assets\images\Deep-fake-detection-AI.jpg',
+                            src='assets/images/Deep-fake-detection-AI.jpg',
                             fit=ImageFit.CONTAIN,
                             width=650,
                             height=650,
