@@ -43,7 +43,7 @@ swin.eval()
 
 
 classifier = SwinFeatureClassifier().to(device)
-classifier.load_state_dict(torch.load(r"C:\Users\hp\Downloads\90_swin_best_classifier.pt", map_location=device))
+classifier.load_state_dict(torch.load("trained_models/90_swin_best_classifier.pt", map_location=device))
 classifier.eval()
 
 
