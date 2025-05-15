@@ -2,9 +2,7 @@ flet
 requests
 numpy
 pyrebase
-torch
 torchvision
-torchaudio
 tensorflow
 librosa
 face_recognition
@@ -12,5 +10,8 @@ matplotlib
 scikit-learn
 tqdm
 Pillow
-transformers
 captum
+torch>=2.0
+torchaudio>=2.0
+transformers==4.45.1
+tokenizers==0.19.1
