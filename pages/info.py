@@ -59,7 +59,7 @@ class Contact(Container):
                     Row(
                         controls=[
                             Icon(name=icons.EMAIL),
-                            Text("deepscanpro.deepdetetctor@gmail.com", size=16,)
+                            Text("deepscanpro.deepdetector@gmail.com", size=16,)
                         ],
                         alignment='start',
                     ),
