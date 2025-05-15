@@ -161,7 +161,7 @@ class HomePage(Container):
                         content=Row(
                             controls=[
                                 Image(
-                                    src=r"assets/DS.png",
+                                    src="assets/DS.png",
                                     width=200,
                                     height=100,
                                     fit=ImageFit.CONTAIN,
